@@ -63,6 +63,17 @@ Results
 
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Status_metrics_chart.png)
 
+### GPA Distribution by Decision
+
+![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Status_metrics_chart.png)
+
+
+
+### Success Rates of Applicants Contributing to this Data
+
+![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/gpa_by_decision.png)
+
+
 
 
 
