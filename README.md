@@ -11,7 +11,7 @@ I am extremely interested in pursuing an Online Masters in Data Analytics which 
 I have used some of the Data Analytics skills I learned in UC Berkeley Extension's Data Analytics Bootcamp as well as GeorgiaTech's online course 'Data Analytics in Business'.
 
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install and use my code:
 ```
@@ -38,21 +38,31 @@ You should be able to fork this respository and get an updated version of my dat
 
 
 
-### Results
+# Results
 
-Explain what these tests test and why
+Results
 
-```
-```
+### Sentiment Analysis of Comments
+
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Comment_sentiments_by_term.png)
+
+### A Word Cloud Analysis of Comments left by Applicants of this thread
+
+![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/comments_wordcloud.png)
+
+
+### Time Taken (in Days) for Successful and Unsuccessful Candidates to Get Decisions
 
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Response_time_by_decision.png)
 
+### Time Taken (in Days) for Candidates in every Admissions Cycle to Get Decisions
+
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Response_time_by_term.png)
+
+### Success Rates of Applicants Contributing to this Data
 
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Status_metrics_chart.png)
 
-![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/comments_wordcloud.png)
 
 
 
