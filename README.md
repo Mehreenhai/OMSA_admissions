@@ -8,7 +8,7 @@ Analysis of Data Provided on Reddit by Applicants of GeorgiaTech's OMS Analytics
 ### Prerequisites
 
 What things you need to install the software and how to install them
-
+```
 For the purpose of data retrieval and data analysis, I have used a variety of tools including:
 - Python
 - Praw (API wrapper for Reddit API)
@@ -16,7 +16,7 @@ For the purpose of data retrieval and data analysis, I have used a variety of to
 - Matplotlib
 - Vader (for sentiment analysis)
 - Wordcloud
-
+```
 
 ## Running the tests
 
