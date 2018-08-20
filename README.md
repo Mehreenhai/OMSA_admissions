@@ -1,36 +1,22 @@
 # Project Title
 
-One Paragraph of project description goes here
+Analysis of Data Provided on Reddit by Applicants of GeorgiaTech's OMS Analytics for terms between Fall 2017 to Spring 2019.
 
-## Getting Started
+## Intro
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-```
-Give examples
-```
+For the purpose of data retrieval and data analysis, I have used a variety of tools including:
+- Python
+- Praw (API wrapper for Reddit API)
+- Pandas and Numpy
+- Matplotlib
+- Vader (for sentiment analysis)
+- Wordcloud
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
