@@ -254,10 +254,44 @@ def analyze():
     status_metrics_chart = response_decision_metrics_df['Time Taken for Decision'].plot.bar().set_title('Decision Time (in days) by Application Decision')
     plt.savefig("graphs/Response_time_by_decision.png", bbox_inches='tight')
 
+    #Analyzing education
+    all_gpas = []
+    term = []
+    decision = []
 
-get_raw_answers()
+    for i,r in cleaned_answers_df.iterrows():
+        try:
+            words = r['Education'].split(" ")
+            for word in words:
+                try:
+                    word = float(word)
+                    if(word >= 2.0 and word <= 4.0):
+                        all_gpas.append(word)
+                        term.append(r['term'])
+                        decision.append(r['Status'])
+                except:
+                    None
+        except:
+            None
+    gpa_df = pd.DataFrame()
+    gpa_df['term'] = term
+    gpa_df['gpa'] = all_gpas
+    gpa_df['decision'] = decision
+    gpa_df = gpa_df[(gpa_df['decision'] == 'Accepted') | (gpa_df['decision'] == 'Rejected')]
+    print(gpa_df.head())
 
-clean_answers()
+    print(gpa_df.groupby(['decision']).mean())
+
+    # response_decision_metrics_df = pd.DataFrame(Response_time_df.groupby(['Decision']).mean())
+    # print(response_decision_metrics_df)
+
+    plt.figure()
+    boxplot = gpa_df.boxplot(by='decision').set_title('GPA by Application Decision')
+    plt.savefig("graphs/gpa_by_decision.png", bbox_inches='tight')
+
+# get_raw_answers()
+
+# clean_answers()
 
 analyze()
 
