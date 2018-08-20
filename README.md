@@ -7,7 +7,7 @@ Analysis of Data Provided on Reddit by Applicants of GeorgiaTech's OMS Analytics
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install and use my code:
 ```
 For the purpose of data retrieval and data analysis, I have used a variety of tools including:
 - Python
