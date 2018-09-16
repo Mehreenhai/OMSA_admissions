@@ -42,7 +42,7 @@ You should be able to fork this respository and get an updated version of my dat
 
 Results
 
-### Average Sentiments of Comments by Admissions Cycle
+### Sentiment Analysis of Comments by Admissions Cycle
 
 ![alt text](https://github.com/Mehreenhai/OMSAnalytics_admissions/blob/master/graphs/Comment_sentiments_by_term.png)
 
